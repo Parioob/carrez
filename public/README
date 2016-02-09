@@ -1,0 +1,15 @@
+TOURAILLE 
+Pierre-Ugo
+
+Utilisation de l'application :
+
+-Lancer la commande bash de Node js
+--Entrer la commande "node liaison.js" afin de mettre en route le serveur
+--Laisser la commande bash de node js ouverte durant les autres étapes
+
+-Ouvrir un navigateur (Mes test ont été effectués sur Chrome)
+--Entrer ceci dans votre URL : "http://localhost:8081/webinterface"
+--Aller ensuite sur le site du bon coin et selectionner une annonce immobilière de vos choix en copiant son URL.
+--Coller l'URL dans le TextField de la page HTML puis appuyer sur le bouton "Compare"
+--Le résultat s'affiche dans la commande bach de Node js (En effet, je ne suis pas parvenu à générer deux pages HTML et à les appeler afin de signaler si c'est un baddeal ou un gooddeal. On pourrait imaginer dans une itération effectuée l'appelle de la page : GoodDeal.html / BadDeal.html selon le résultat de notre requête.)
+

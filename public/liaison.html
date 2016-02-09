@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="TypeMenu.css" /> <!-- Page CSS à mettre dans le même dossier que le HTML propre au Menu. -->
+	</head>
+	
+<body>
+	
+	<div class="mdl-layout mdl-js-layout"> <!-- C'était ici qu'il y avait le background pour les trois traits -->
+		  <header class="mdl-layout__header" style="background:#102BF7;"> <!-- Ici on rajoute un background de type DrivyLOGO-->
+			<div class="mdl-layout__header-row" >
+			  <!-- Title -->
+			  <span class="mdl-layout-title" ></span> <!-- Dans notre cas nous n'avons plus besoin de mettre de titre.-->
+			  <!-- Add spacer, to align navigation to the right -->
+			  <div class="mdl-layout-spacer" ></div>
+			  <!-- Navigation. We hide it in small screens. -->
+			</div>
+		  </header>
+		 
+	
+	  
+		  
+	<!-- Début du Main dans le body, notre main page.-->
+	<main class="mdl-layout__content">
+		<div class="page-content">
+		
+	<!-- Première grid ESILV - TITRE - EIREST -->
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col"></div>
+			<div class="mdl-cell mdl-cell--4-col">
+				<center><h2> Welcome to my real estate comparator</h2></center> <!-- Titre -->
+					
+			<div class="mdl-cell mdl-cell--4-col"></div>
+		</div>
+		</div>
+		
+	<!-- Fin de la Première Grid -->
+	<br />
+	<br /><br />
+	<br />
+	<br />
+	<br />
+	<br />
+	
+		<div class="login">
+			<form action="/result" method="get">
+				<div>
+					<center><label for="ad-lbc">Please Enter an URL Adress form LeBonCoin :</label>
+					<input type="text" class="ad-lbc" name="ad-lbc" id="ad-lbc"> </center>
+				</div>
+				<div class="button">
+					<center><button type="submit">Compare</button> </center>
+				</div>				
+			</form>
+		</div>
+	
+	<!-- Colored raised button 
+	
+		<center><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="compute" style="background:#102BF7">
+			Compute
+		</button></center>-->
+	</main>
+		<footer class="mdl-mini-footer"> <!-- Bien placé le footer ici si on veut que le footer touche la fin de page. -->
+				<!-- Ici la partie de gauche de notre footer -->
+				<div class="mdl-mini-footer__left-section">
+					<div class="mdl-logo">Title</div>
+						<ul class="mdl-mini-footer__link-list">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Privacy & Terms</a></li>
+						</ul>
+				</div>
+				<!-- Test pour mettre du texte au milieu, mais ne fonctionne qu'avec des mega footer
+				<div class="mdl-mini-footer__middle-section">
+				<div class="mdl-logo">TOURAILLE Pierre-Ugo <div>
+				</div> 
+				Nénmoins après recherche on aurait pu mettre mon nom et prénom au milieu du footer, mais cela ne rendait aps très bien à l'aide de la balise <center> </center> appliquée à la zone de texte.-->
+  
+				<!-- Ici la partie de droite de notre footer -->
+				<div class="mdl-mini-footer__right-section">
+					<div class="mdl-logo">TOURAILLE Pierre-Ugo</div>
+				</div>
+  
+			</footer>
+		</div>
+</body>
+	
+</html>

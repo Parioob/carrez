@@ -1,0 +1,12 @@
+{
+"title":"MeilleursAgents Schema", 
+"type":"object",
+"properties":
+	{
+	"zip_code":{"type":"integer"}, 
+	"average_house_price":{"type":"integer"}, 
+	"average_flat_price":{"type":"integer"}, 
+	"average_rent_price":{"type":"integer"} 
+	}, 
+"required":["zip_code", "average_house_price", "average_flat_price", "average_rent_price"]
+}

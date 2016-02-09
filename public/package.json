@@ -1,0 +1,15 @@
+{
+  "name"         : "node-web-scrape",
+  "version"      : "0.0.1",
+  "description"  : "Scrape web page",
+  "main"         : "server.js",
+  "author"       : "PierreUgoTOURAILLE",
+  "dependencies" : {
+	"ajax"		 : "latest",
+	"body-parser": "latest",
+	"cheerio"	 : "latest",
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  }
+}

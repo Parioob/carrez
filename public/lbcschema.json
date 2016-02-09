@@ -1,0 +1,14 @@
+{
+"title":"LeBonCoin Schema",
+"type":"object",
+"properties":
+	{
+	"price": {"type":"integer"},
+	"city":{"type":"string"},
+	"zip_code":{"type":"integer"}, 
+	"property_type":{"type":"string"},
+	"Area":{"type":"integer"},
+	"rooms":{"type":"integer"}
+	},
+	"required":["url", "price", "zip_code", "property_type", "area"]
+}
